@@ -5,18 +5,34 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="./index.css">
 </head>
+
+<script>
+
+window.onload = function(){
+document.getElementById("date").innerText = new Date().getFullYear();
+}
+
+</script>
+
 <body>
     <main>
         <header>
-            <h1>49th Security Division</h1>
+                <h1>49th Security Division</h1>
         </header>
     
-        <h2>About<h2>
+        <h2>About</h2>
         <p>We are a Computer Security and Ethical Hacking club.</p>
-
-        <h2>Contact<h2>
-        <p>Please email us at sidfu@uncc.edu</p>
-
+        
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://ninerengage.uncc.edu/organization/49th-security-division">Niner Engage</a></li>
+            <li><a href="https://twitter.com/49SD">Twitter</a></li>
+        </ul>
+        <h2>Contact</h2>
+        <p>Please email us at 49thSecurityDivision (AT) uncc.edu to join slack or for other inquiries.</p>
     </main>
+    <footer>
+        <p>&copy; <span id="date"></span> 49th Security Division</p>
+  </footer>
 </body>
 </html>
