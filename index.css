@@ -10,6 +10,7 @@ main {
 }
 header {
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 h1 {
   margin-bottom: .5rem;
@@ -29,4 +30,8 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+.logo {
+  max-width: 18vh;
+  border-radius: 50%;
 }
