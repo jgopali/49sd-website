@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<style>
+    html, body {
+        background-color: black;
+        margin: 0;
+        height:100%;
+        width:100%;
+        overflow: hidden;
+    }
+</style>
+
+<body>
+<iframe
+    id = musicVideoPlayer
+    width="100%"
+    height="100%"
+    src=""
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+</body>
+
+<script>
+    var randLoad = Math.floor((Math.random() * 468) + 1); 
+    document.getElementById("musicVideoPlayer").src = "https://www.youtube.com/embed/videoseries?list=PLho7NtycSzo2lzsuYfhS5b9Qp7jZW_9fF&index=" + randLoad + "&autoplay=1"
+    var flag = "FLAG{YOU_FOUND_ME}"
+</script>
+</html>
