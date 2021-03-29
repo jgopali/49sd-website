@@ -4,6 +4,7 @@
   <title>49th Security Division</title>
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="./index.css">
+  <script src="js/dropdown.js"></script>
 </head>
 
 <script>
@@ -21,14 +22,37 @@ document.getElementById("date").innerText = new Date().getFullYear();
         </header>
         
         <h2>About</h2>
-        <p>We are a Computer Security and Ethical Hacking club.</p>
+        <p>We are a Computer Security and Ethical Hacking club based out of UNC Charlotte. We were founded in 2009 and continue to compete in premier security competitions and attend top notch hacker and cybersecurity conferences.</p>
+
+		<p><a onclick="dropDown('history');">Learn more about our history...</a></p> 
+		<div id="history" style="display:none;">
+			<h3>Past Presidents</h3>
+			<ul>
+				<li>Josh Schroder 09-10</li>
+				<li>Mike Rosa 10-11</li>
+				<li>Antoinette Parnther 11-12</li>
+				<li>Zack Mayo 12-13</li>
+				<li>Luke Snyder 13-14</li>
+				<li>Katareena Geller 14-15</li>
+				<li>Ben Savage 15-16</li>
+				<li>Alex Rodriguez 16-18</li>
+				<li>Trevon Williams 18-19</li>
+				<li>Mike Petty 19-20</li>
+				<li>Zac Taylor 20-21</li>
+			</ul>
+			<h3> Faculty Advisor </h3>
+			<ul>
+				<li>Bill Chu 09-18</li>
+				<li>Tom Moyer 18-21</li>
+			</ul>
+		</div>
         
         <h2>Links</h2>
         <ul>
             <li><a href="https://ninerengage.uncc.edu/organization/49th-security-division">Niner Engage</a></li>
             <li><a href="https://49sd.slack.com">Slack</a></li>
             <li><a href="https://twitter.com/49SD">Twitter</a></li>
-            <li><a href="https://github.com/49thSecurityDivision">Github Team Page</a></li>
+            <li><a href="https://github.com/49thSecurityDivision">Github</a></li>
             <li><a href="https://m.do.co/c/6e4a2f5be9e8">DigitalOcean Referral</a></li>
             <li><a href="https://bank.hackclub.com/donations/start/49thsecuritydivision">Donate (tax deductible!)</a></li>
         </ul>
