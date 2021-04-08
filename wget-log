@@ -1,0 +1,11 @@
+--2021-04-08 16:36:00--  https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcwic.hosting.acm.org%2Fwp-content%2Fuploads%2F2020%2Fsponsors%2FUNCC_logo_CCI_004525.png
+Resolving external-content.duckduckgo.com (external-content.duckduckgo.com)... 52.149.246.247
+Connecting to external-content.duckduckgo.com (external-content.duckduckgo.com)|52.149.246.247|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/png]
+Saving to: ‘index.html?u=http:%2F%2Fcwic.hosting.acm.org%2Fwp-content%2Fuploads%2F2020%2Fsponsors%2FUNCC_logo_CCI_004525.png’
+
+               index.html?u=h     [<=>                                             ]       0  --.-KB/s               index.html?u=http:%2F%2Fcwic.     [ <=>                                            ]  57.43K  --.-KB/s    in 0.03s   
+
+2021-04-08 16:36:02 (1.76 MB/s) - ‘index.html?u=http:%2F%2Fcwic.hosting.acm.org%2Fwp-content%2Fuploads%2F2020%2Fsponsors%2FUNCC_logo_CCI_004525.png’ saved [58805]
+
