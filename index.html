@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="./index.css">
   <script src="js/dropdown.js"></script>
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/jpg" href="49sd-favicon.ico"/>
 </head>
 
 <script>
@@ -18,14 +20,39 @@ document.getElementById("date").innerText = new Date().getFullYear();
 <body>
     <main>
         <header>
-                <h1>49th Security Division</h1> 
+				<img class="logo" src="49th_SEC.png" alt="logo">
+                <h1>49<sup>th</sup> Security Division</h1> 
         </header>
         
         <h2>About</h2>
         <p>We are a Computer Security and Ethical Hacking club based out of UNC Charlotte. We were founded in 2009 and continue to compete in premier security competitions and attend top notch hacker and cybersecurity conferences.</p>
 
+		<!-- How to Join Section -->
+		<h2>How to Join</h2>
+		<p>In order to join the club simply send us an <a href="mailto:49thSecurityDivision@uncc.edu" target="_blank">email</a> and then join us on <a href="https://49sd.slack.com" target="_blank">slack</a>.</p>
+        <p>Doing so will allow you to:</p>
+		<ul>
+            <li>Attend Meetings</li>
+            <li>Attend competition practices(For competitions that do not require membership)</li>
+            <li>Membership guidelines are mentioned in the Slack.</li>
+			<li>Attend <a href="#lab-hours">lab hours</a></li>
+        </ul>
+		<!-- Lab Hours Section -->
+		<h2 id="lab-hours">Lab Hours for Fall 21</h2>
+		<li>TBA</li>
+        <!-- Links Section -->
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://ninerengage.uncc.edu/organization/49th-security-division" target="_blank">Niner Engage</a></li>
+            <li><a href="https://49sd.slack.com" target="_blank">Slack</a></li>
+            <li><a href="https://twitter.com/49SD" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com/49thSecurityDivision" target="_blank">Github</a></li>
+            <li><a href="https://m.do.co/c/6e4a2f5be9e8" target="_blank">DigitalOcean Referral</a></li>
+            <li><a href="https://bank.hackclub.com/donations/start/49thsecuritydivision" target="_blank">Donate (tax deductible!)</a></li>
+        </ul>
 		<p><a onclick="dropDown('history');">Learn more about our history...</a></p> 
 		<div id="history" style="display:none;">
+			<!-- Past Presidents Section -->
 			<h3>Past Presidents</h3>
 			<ul>
 				<li>Josh Schroder 09-10</li>
@@ -46,23 +73,14 @@ document.getElementById("date").innerText = new Date().getFullYear();
 				<li>Tom Moyer 18-21</li>
 			</ul>
 		</div>
-        
-        <h2>Links</h2>
-        <ul>
-            <li><a href="https://ninerengage.uncc.edu/organization/49th-security-division">Niner Engage</a></li>
-            <li><a href="https://49sd.slack.com">Slack</a></li>
-            <li><a href="https://twitter.com/49SD">Twitter</a></li>
-            <li><a href="https://github.com/49thSecurityDivision">Github</a></li>
-            <li><a href="https://m.do.co/c/6e4a2f5be9e8">DigitalOcean Referral</a></li>
-            <li><a href="https://bank.hackclub.com/donations/start/49thsecuritydivision">Donate (tax deductible!)</a></li>
-        </ul>
+		<!-- Contact Section -->
         <h2>Contact</h2>
-        <p>Please email us at 49thSecurityDivision (AT) uncc.edu to join slack or for other inquiries.</p>
+        <p>Please email us at 49thSecurityDivision (AT) uncc.edu for other inquiries.</p>
+		<!-- Mini Challenges Section -->
+        <h2>Mini Challenges</h2>
+        <p>To get a better understanding of what you might encounter in competitions. <a href="challenges.html">Here</a> are a couple practice challenges.</p>
     </main>
     <footer>
-		<div>
-        <img class="logo" src="49th_SEC.png" alt="logo">
-		</div>
 		<div>
        	<img class="logo" style="max-width:5vh !important" src="charlotte.png" alt="logo">
         <p>&copy; <span id="date"></span> 49th Security Division</p>

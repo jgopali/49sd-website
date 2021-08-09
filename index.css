@@ -35,3 +35,11 @@ a:hover {
   max-width: 18vh;
   border-radius: 50%;
 }
+
+p.hint1{
+  display: none;
+}
+
+p.hint2{
+  display: none;
+}
