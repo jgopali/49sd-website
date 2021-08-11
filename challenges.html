@@ -1,76 +1,61 @@
 <!DOCTYPE html>
 <html lang=en>
+
 <head>
-  <title>Mini Challenges</title>
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="./index.css">
-  <script src="js/dropdown.js"></script>
-  <script src="js/MiniCTF.js"></script>
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/jpg" href="49sd-favicon.ico"/>
+	<title>Mini Challenges</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="./index.css">
+	<script src="js/dropdown.js"></script>
+	<script src="js/MiniCTF.js"></script>
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/jpg" href="49sd-favicon.ico" />
 </head>
 
 <body>
-    <main>
-        <header>
-				<img class="logo" src="49th_SEC.png" alt="logo">
-                <h1>49<sup>th</sup> Security Division</h1> 
-        </header>
-
-      <h2 class="h2"><b>What are CTFs?</b></h2>
-      <p> 
-          A CTF or (Capture the Flag) is a type of computer security competition in which the individual or team is given a wide range
-          of challenges to solve. In order for the individual or team to be rewarded points they must submit the correct flag or answer, which is found by solving 
-          the challenges. We have created a mini CTF for you to try out. If you cant seem to find the flag use the hint button to give you a hand. 
-      </p>
-
-      <br>
-
-      <h2 class="h2"><b>Challenge 1: HTML</b></h2>
-      <form name="challenge1" id="challenge1">
-          <p>Can you find the hidden flag? </p>
-          <label for="flag1">Enter Flag Here: </label>
-          <input type="text" id="flag1" name="flag1" class="textbox" value="Ex.  flag_{...}">
-          <button type="button" id="btnEnter1" class="enter">Enter</button>
-          <br>
-          <br>
-          <button type="button" id="btnHint1" class="hints"><b>Hint</b></button>
-          <p id="hint1" class="hint1">Hint: (F12)</p>
-
-      </form>
-      <!--Nobody will find me here...-->
-      <!--flag_{sUbMiT_tHiS_wHoLe_LiNe}-->
-      <br>
-      <br>
-      <br>
-
-      <h2 class="h2"><b>Challenge 2: Decode</b></h2>
-      <form name="challenge2" id="challenge2">
-          <p>Can you decrypt the encrypted message? </p>
-          <p>Message: 01110101 01011111 01010010 01011111 01001000 01000000 01100011 01101011 00110011 01110010</p>
-          <label for="flag2">Enter Password Here: </label>
-          <input type="text" id="flag2" name="flag2" class="textbox" value="Ex.  password" writeonly>
-          <button type="button" id="btnEnter2" class="enter">Enter</button>
-          <br>
-          <br>
-          <button type="button" id="btnHint2" class="hints"><b>Hint</b></button>
-          <p id="hint2" class="hint2">Hint: Binary</p>
-
-      </form>
-
-      <br>
-      <br>
-      <br>
-
-    </main>
-
-    <footer>
-		<div>
-       	<img class="logo" style="max-width:5vh !important" src="charlotte.png" alt="logo">
-        <p>&copy; <span id="date"></span> 49th Security Division</p>
+	<main>
+		<header>
+			<a href="index.html"><img class="logo" src="49th_SEC.png" alt="logo"></a>
+			<h1>49<sup>th</sup> Security Division</h1> 
+    </header>
+		<h2 class="h2"><b>What are CTF's?</b></h2>
+		<p> A Capture the Flag (CTF) competition is a sort of computer security competition in which a person or team is given a variety of problems to complete. To receive points, the person or team must submit the proper flag or solution, which is discovered through completing the tasks. We've put up a little CTF for you to try out. If you're having trouble finding the flag, click the hint button to assist you. </p>
+		<br>
+		<h2 class="h2"><b>Challenge 1: HTML</b></h2>
+		<form name="challenge1" id="challenge1">
+			<p>Can you find the hidden flag? </p>
+			<label for="flag1">Enter Flag Here: </label>
+			<input type="text" id="flag1" name="flag1" class="textbox ctf-answer" placeholder="flag_{...}">
+			<button type="button" id="btnEnter1" class="enter ctf-submit">Submit</button>
+			<br>
+			<br>
+			<button type="button" id="btnHint1" class="hints ctf-hint">Hint</button>
+			<p id="hint1" class="hint1">Hint: (F12)</p>
+		</form>
+		<!--Nobody will find me here...-->
+		<!--flag_{sUbMiT_tHiS_wHoLe_LiNe}-->
+		<br>
+		<br>
+		<h2 class="h2"><b>Challenge 2: Decode</b></h2>
+		<form name="challenge2" id="challenge2">
+			<p>Can you decrypt the encrypted message? </p>
+			<p>Message: 01110101 01011111 01010010 01011111 01001000 01000000 01100011 01101011 00110011 01110010</p>
+			<label for="flag2">Enter Password Here: </label>
+			<input type="text" id="flag2" name="flag2" class="textbox ctf-answer" placeholder="Password">
+			<button type="button" id="btnEnter2" class="enter ctf-submit">Submit</button>
+			<br>
+			<br>
+			<button type="button" id="btnHint2" class="hints ctf-hint">Hint</button>
+			<p id="hint2" class="hint2">Hint: Binary</p>
+		</form>
+		<br>
+		<br>
+		<br> </main>
+	<footer>
+		<div> <img class="unc-logo" src="charlotte.png" alt="logo">
+			<p>&copy; <span id="date"></span> 49<sup>th</sup> Security Division</p>
 		</div>
-    </footer>
-
+	</footer>
 </body>
 
 </html>
+<!--I've been working on something called the fun zone... try./fun ~ Wes-->
