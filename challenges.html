@@ -56,7 +56,93 @@
 					<p id="hint2" class="hint">Hint: Binary</p>
 				</form>
 			</div>
+			<h2 class="h2"><b>Challenge 3: Log Analysis</b></h2>
+			<div>
+				<p>For this challenge you'll need this <a href="challenges_files/apache_logs" target="_blank">log file</a> </p>
+				<div id="log-analysis-accordion">
+					<h2>Question 1</h2>
+					<div>
+						<form name="challenge3_1" id="challenge3_1">
+							<p>How many lines are there in the log file?</p>
+							<label for="flag3_1">Enter your answer here: </label>
+							<input type="text" id="flag3_1" name="flag3_1" class="textbox ctf-answer" placeholder="Total Lines">
+							<button type="button" id="q3_1" class="enter ctf-submit">Submit</button>
+							<br>
+							<br>
+							<button type="button" id="btnHint3_1" class="hints ctf-hint">Hint</button>
+							<p id="hint3_1" class="hint">Command Line Tool <b>wc</b></p>
+						</form>
+					</div>
+					<h2>Question 2</h2>
+					<div>
+						<form name="challenge3_2" id="challenge3_2">
+							<p>How many Unique IP's are there in the log file?</p>
+							<label for="flag3_2">Enter your answer here: </label>
+							<input type="text" id="flag3_2" name="flag3_2" class="textbox ctf-answer" placeholder="Uniqe IP's">
+							<button type="button" id="q3_2" class="enter ctf-submit">Submit</button>
+							<br>
+							<br>
+							<button type="button" id="btnHint3_2" class="hints ctf-hint">Hint</button>
+							<p id="hint3_2" class="hint">Command Line Tool <b>cat, cut uniq</b></p>
+						</form>
+					</div>
+					<h2>Question 3</h2>
+					<div>
+						<form name="challenge3_3" id="challenge3_3">
+							<p>What is the IP address from which the server got more traffic from?</p>
+							<label for="flag3_3">Enter your answer here: </label>
+							<input type="text" id="flag3_3" name="flag3_3" class="textbox ctf-answer" placeholder="Most Hit IP">
+							<button type="button" id="q3_3" class="enter ctf-submit">Submit</button>
+							<br>
+							<br>
+							<button type="button" id="btnHint3_3" class="hints ctf-hint">Hint</button>
+							<p id="hint3_3" class="hint">Command Line Tool <b>cat, cut, sort, uniq</b></p>
+						</form>
+					</div>
+					<h2>Question 4</h2>
+					<div>
+						<form name="challenge3_4" id="challenge3_4">
+							<p>What is the URL which was most visited?</p>
+							<label for="flag3_4">Enter your answer here: </label>
+							<input type="text" id="flag3_4" name="flag3_4" class="textbox ctf-answer" placeholder="Most Visited URL">
+							<button type="button" id="q3_4" class="enter ctf-submit">Submit</button>
+							<br>
+							<br>
+							<button type="button" id="btnHint3_3" class="hints ctf-hint">Hint</button>
+							<p id="hint3_4" class="hint">Command Line Tool <b>cat, cut, sort, uniq</b></p>
+						</form>
+					</div>
+					<h2>Question 5</h2>
+					<div>
+						<form name="challenge3_5" id="challenge3_5">
+							<p>What is the Total count of requests which got a 200 response?</p>
+							<label for="flag3_5">Enter your answer here: </label>
+							<input type="text" id="flag3_5" name="flag3_5" class="textbox ctf-answer" placeholder="Total 200 responses">
+							<button type="button" id="q3_5" class="enter ctf-submit">Submit</button>
+							<br>
+							<br>
+							<button type="button" id="btnHint3_5" class="hints ctf-hint">Hint</button>
+							<p id="hint3_5" class="hint">Command Line Tool <b>cat, cut, sort, uniq</b></p>
+						</form>
+					</div>
+				</div>
+			</div>
+			<h2 class="h2"><b>Challenge 4: Cryptography</b></h2>
+			<div>
+				<form name="challenge2" id="challenge2">
+					<p>Alice just sent a secret message to Bob, can you find out what they were trying to communicate? </p>
+					<p>Encrypted Message: o3Ss0_i0I</p>
+					<label for="flag2">Enter Text Here: </label>
+					<input type="text" id="flag2" name="flag2" class="textbox ctf-answer" placeholder="Password">
+					<button type="button" id="q2" class="enter ctf-submit">Submit</button>
+					<br>
+					<br>
+					<button type="button" id="btnHint2" class="hints ctf-hint">Hint</button>
+					<p id="hint2" class="hint">This text is encoded using a popular Encryption technique</p>
+				</form>
+			</div>
 		</div>
+		<p style="font-size: 18px;">More Challenges on the way!!!</p>
 	</main>
 	<footer>
 		<div> <img class="unc-logo" src="charlotte.png" alt="logo">
