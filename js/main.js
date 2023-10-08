@@ -1,1 +1,117 @@
-function _0x9b24(_0x1d5298,_0x57075f){var _0x52ad55=_0x52ad();return _0x9b24=function(_0x9b2455,_0x2846ff){_0x9b2455=_0x9b2455-0x107;var _0x4d6a4e=_0x52ad55[_0x9b2455];return _0x4d6a4e;},_0x9b24(_0x1d5298,_0x57075f);}var _0x1f4947=_0x9b24;function _0x52ad(){var _0x149330=['fa-chevron-down\x20fa-chevron-up','9126','div','val','attr','Correct!','slideToggle','next','267666CwRFyK','555506KfVeZb','/favicon.ico','3250930loxrEO','prev','56UJVGPB','.ddown','10000','h3Ll0_b0B','q3_3','.ctf-submit','find','click','1645128UvpwzA','input','Congrats!\x20You\x20have\x20completed\x20this\x20challenge.','accordion','#accordion,\x20#log-analysis-accordion','ready','q3_1','231644hiCyXU','content','q3_2','toggle','725576JYcbuf','u_R_H@ck3r','91egDpAf','63027bPudkg','10kdIMtO','.ctf-hint','q3_5','66.249.73.135'];_0x52ad=function(){return _0x149330;};return _0x52ad();}(function(_0x81aef3,_0x458bae){var _0x1ccc51=_0x9b24,_0x3394b9=_0x81aef3();while(!![]){try{var _0x4f5cec=-parseInt(_0x1ccc51(0x110))/0x1+parseInt(_0x1ccc51(0x123))/0x2+-parseInt(_0x1ccc51(0x12a))/0x3*(parseInt(_0x1ccc51(0x114))/0x4)+parseInt(_0x1ccc51(0x112))/0x5+-parseInt(_0x1ccc51(0x10f))/0x6*(-parseInt(_0x1ccc51(0x129))/0x7)+parseInt(_0x1ccc51(0x127))/0x8+parseInt(_0x1ccc51(0x11c))/0x9*(-parseInt(_0x1ccc51(0x12b))/0xa);if(_0x4f5cec===_0x458bae)break;else _0x3394b9['push'](_0x3394b9['shift']());}catch(_0xcb8599){_0x3394b9['push'](_0x3394b9['shift']());}}}(_0x52ad,0x62b00),$(document)[_0x1f4947(0x121)](function(){var _0x3ef94b=_0x1f4947;$(_0x3ef94b(0x115))[_0x3ef94b(0x11b)](function(){var _0x2900e7=_0x3ef94b;$(this)[_0x2900e7(0x11a)]('i')['toggleClass'](_0x2900e7(0x107)),$(this)['find'](_0x2900e7(0x109))[_0x2900e7(0x10d)](0x1f4);}),$(_0x3ef94b(0x120))[_0x3ef94b(0x11f)]({'collapsible':!![],'active':![],'heightStyle':_0x3ef94b(0x124),'animate':{'duration':0x190}});function _0x258a73(_0x5e274a){var _0x46a387=_0x3ef94b,_0x1956d7=$(_0x5e274a)['attr']('id'),_0x2bf20b=$(_0x5e274a)[_0x46a387(0x113)]('input')[_0x46a387(0x10a)](),_0x206501=![];switch(_0x1956d7){case'q1':if(_0x2bf20b==='flag_{sUbMiT_tHiS_wHoLe_LiNe}'){_0x206501=!![];break;}case'q2':if(_0x2bf20b===_0x46a387(0x128)){_0x206501=!![];break;}case _0x46a387(0x122):if(_0x2bf20b===_0x46a387(0x116)){_0x206501=!![];break;}case _0x46a387(0x125):if(_0x2bf20b==='1753'){_0x206501=!![];break;}case _0x46a387(0x118):if(_0x2bf20b===_0x46a387(0x12e)){_0x206501=!![];break;}case'q3_4':if(_0x2bf20b===_0x46a387(0x111)){_0x206501=!![];break;}case _0x46a387(0x12d):if(_0x2bf20b===_0x46a387(0x108)){_0x206501=!![];break;}case'q4':if(_0x2bf20b===_0x46a387(0x117)){_0x206501=!![];break;}default:_0x206501=![];}$(_0x5e274a)[_0x46a387(0x113)](_0x46a387(0x11d))['val'](''),_0x206501?(alert(_0x46a387(0x11e)),$(_0x5e274a)[_0x46a387(0x113)]('input')['attr']('placeholder',_0x46a387(0x10c))):$(_0x5e274a)[_0x46a387(0x113)](_0x46a387(0x11d))[_0x46a387(0x10b)]('placeholder','Incorrect');}$(_0x3ef94b(0x119))['click'](function(){_0x258a73($(this));}),$(_0x3ef94b(0x12c))[_0x3ef94b(0x11b)](function(){var _0xfe8b04=_0x3ef94b;$(this)[_0xfe8b04(0x10e)]('p')[_0xfe8b04(0x126)]();});}));
+/* Salt to use when hashing answers. Chosen at random. */
+const FLAG_SALT = "qIg4puPBff42gHq5THKe+g==";
+
+/* Hashes of the correct answers to each question.
+ *
+ * These digests were computed using SHA-512 and using the above salt.
+ * 
+ * Note, if you'd like to add an answer for a question, you can compute the
+ * hash like this; Open your browser console (press F12) and type:
+ *
+ *   bytesToBase64(await getDigest("flag_{yOuR_fL4G_h3rE}"))
+ *
+ * While you're on the https://49sd.com/challenges.html page.
+*/
+const FLAG_DIGESTS = {
+	q1:	"/U48F6ev94GonIyE521hmTm2VYvGsnNNAGTkcb9CqBov"+
+		"R8YQvXOn+u8XlluE4ROsy8BF0LqQ8a1vwHtoFjwFYg==",
+	q2:	"8ikYFEx3V2Y3FBnyV59kJ+YjjoUnXGeE1VNhd4T/pfod"+
+		"/nWxHxJfLFhnb4dJ+q4lBS9M0qBSCGWqCh6hr8jnqg==",
+	q3_1:	"Ch9e8bahBsqR3vnLmh1f+7EqYf7ivyfCd0GoaAVWPPmw"+
+		"ivro60H3o2G1uZI8noX/K2ZHEFa2IRwA4bwC1mmJuQ==",
+	q3_2:	"6LT5WAyZL8i3xjDxftp+hOpE13QETa/DoMCytefr22iv"+
+		"R5M1wOHm0lwTnbk49PRktBlfsXam1RAutuFlcKrxBA==",
+	q3_3:	"9iJVM+vRKqAtSXpmDCpCjPEPuAO4wsUl5ZT9OOsoh/xk"+
+		"JLX/wGAPtX94+DEhDdYxAP37X31iIcLfV7cbGmphgg==",
+	q3_4:	"SD6V4dvnohaO/bYa8rootej6t91JieH9M1bFFuaf+gWy"+
+		"tSEyMD1ja0MxqEBUKVYoBaZn0Ay7c7wzyr3N1L/Opw==",
+	q3_5:	"JwBtGiS5S5PWV0G1OSXsTZG2OBSobj65oQMfWVEaOvCP"+
+		"flQwf6vsmlnkqpMj0LpO9uWYbiEG4PWOCpwrQMsEdw==",
+	q4:	"rSisWE68iSM7xn9+6+ReJHxjCNmFUV8BR+X+RIriWSf7"+
+		"AFqBXq89flwbrAX6ZqVMDVO0wUpZq6ajsjDVtuAPfw==",
+};
+
+/* Convert from a Base64 string to a raw Uint8Array.
+ *
+ * This function is from
+ * https://developer.mozilla.org/en-US/docs/Glossary/Base64. 
+*/
+function base64ToBytes(base64) {
+	const binString = atob(base64);
+	return Uint8Array.from(binString, (m) => m.codePointAt(0));
+}
+
+/* Convert from a raw Uint8Array to a Base64 string.
+ *
+ * This function is from
+ * https://developer.mozilla.org/en-US/docs/Glossary/Base64. 
+*/
+function bytesToBase64(bytes) {
+	const binString = String.fromCodePoint(...bytes);
+	return btoa(binString);
+}
+
+/* Check whether two Uint8Arrays are equal. */
+function digestsAreEqual(a, b) {
+	return a.length === b.length && a.every((elem, idx) => elem === b[idx]);
+}
+
+/* Compute the hash for a flag.
+ *
+ * We use a salt to avoid a precomputed table attack.
+ * https://en.wikipedia.org/wiki/Rainbow_table
+*/
+async function getDigest(flag) {
+	var enc = new TextEncoder();
+	var flag_enc = enc.encode(flag);
+	var salt = base64ToBytes(FLAG_SALT);
+
+	var data = new Uint8Array(flag_enc.length + salt.length);
+	data.set(flag_enc);
+	data.set(salt, flag_enc.length);
+
+	var digest = await crypto.subtle.digest('SHA-512', data);
+
+	return new Uint8Array(digest);
+}
+
+$(document).ready(function(){
+	$('.ddown').click(function(){
+		$(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+		$(this).find('div').slideToggle(500);
+	})
+
+	$('#accordion, #log-analysis-accordion').accordion({
+		collapsible: true,
+		active: false,
+		heightStyle: 'content',
+		animate: {
+			duration: 400
+		}
+	});
+
+	async function checkFlag(object) {
+		var id = $(object).attr('id');
+		var flag = $(object).prev('input').val();
+
+		var digest = await getDigest(flag);
+		var correct_digest = base64ToBytes(FLAG_DIGESTS[id]);
+
+		$(object).prev('input').val('');
+
+		if (digestsAreEqual(digest, correct_digest)) {
+			alert('Congrats! You have completed this challenge.');
+			$(object).prev('input').attr('placeholder', 'Correct!');
+		} else {
+			$(object).prev('input').attr('placeholder', 'Incorrect');
+		}
+	}
+	
+	$('.ctf-submit').click(function(){
+		checkFlag($(this));
+	})
+
+	$('.ctf-hint').click(function(){
+		$(this).next('p').toggle();
+	})
+});
