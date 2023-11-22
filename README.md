@@ -12,3 +12,4 @@
 ## TODO
 ***
 - Create navigation bar to navigate to different pages on the site (different HTML files, etc)
+- Add competition information section (successes/achievements/etc)
